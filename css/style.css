@@ -39,6 +39,19 @@ body {
   margin-bottom: 0;
 }
 
+.icon-brand {
+  height: 70px;
+  width: auto;
+  position: relative;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-right: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+}
+
 .pan-7456 {
   color: #4A61A2;
 }
@@ -153,8 +166,8 @@ nav ul li:hover {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 60%;
-  height: 40%;
+  width: 50%;
+  height: 50%;
   background-color: #F3F3F6;
   border-radius: 10px;
   z-index: 1;
