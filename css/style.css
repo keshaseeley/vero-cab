@@ -6,7 +6,9 @@ body {
 .hidden {
   display: none;
 }
-
+.column-1 {
+  width: 100%;
+}
 .column-2 {
   width: 50%;
   float: left;
@@ -21,6 +23,9 @@ body {
 }
 
 @media (max-width: 800px) {
+  .column-1 {
+    width: 100%;
+  }
   .column-2 {
     width: 100%;
   }
@@ -40,11 +45,11 @@ body {
 }
 
 .icon-brand {
-  height: 70px;
+  height: 60px;
   width: auto;
   position: relative;
   margin-left: auto;
-  margin-top: 25px;
+  margin-top: 1.4em;
   margin-right: auto;
   right: 0;
   bottom: 0;
@@ -69,10 +74,16 @@ body {
   padding-bottom: 6px;
 }
 
+.quote-text {
+  color: #808080;
+  font-size: .9em;
+  padding: .3em;
+}
+
 .site-by {
   color: #FFF;
   text-decoration: none;
-  font-size: .9em;
+  font-size: .8em;
   text-align: center;
   position: absolute;
   left: 0;
@@ -80,7 +91,7 @@ body {
   bottom: 0;
   padding: 10px;
   padding-bottom: 15px;
-  width: 33%;
+  width: 50%;
   margin: auto;
   opacity: .85;
 }
@@ -166,8 +177,8 @@ nav ul li:hover {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 50%;
-  height: 50%;
+  width: 80%;
+  height: 55%;
   background-color: #F3F3F6;
   border-radius: 10px;
   z-index: 1;
